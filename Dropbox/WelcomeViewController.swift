@@ -9,24 +9,15 @@
 import UIKit
 
 
-class WelcomeViewController: UIViewController {
-
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var imageView: UIImageView!
-    @IBAction func signInDidTouch(_ sender: UIButton) {
-    }
-    @IBOutlet weak var signUpDidTouch: UIButton!
+class WelcomeViewController: UIViewController, UIScrollViewDelegate {
     
-    var pageIndex: Int!
-    var titleText: String!
-    var imageFile: String!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        self.imageView.image = UIImage(named: self.imageFile)
-        self.titleLabel.text = self.titleText
-        
+        scrollView.contentSize = CGSize(width: 1128, height: 667)
+        scrollView.delegate = self
+
         // Do any additional setup after loading the view.
     }
 
