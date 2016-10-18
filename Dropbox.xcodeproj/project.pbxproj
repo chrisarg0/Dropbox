@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		010AEA411DB1E6FA001AE960 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010AEA401DB1E6FA001AE960 /* Test.swift */; };
 		0113D4D71DB360DB005E8DF0 /* TOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113D4D61DB360DB005E8DF0 /* TOSViewController.swift */; };
 		0114B9041DB4442B0029A3EC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114B9031DB4442B0029A3EC /* SettingsViewController.swift */; };
 		0114B9061DB44A960029A3EC /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114B9051DB44A960029A3EC /* PhotosViewController.swift */; };
@@ -44,7 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010AEA401DB1E6FA001AE960 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		0113D4D61DB360DB005E8DF0 /* TOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOSViewController.swift; sourceTree = "<group>"; };
 		0114B9031DB4442B0029A3EC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0114B9051DB44A960029A3EC /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				01A508BB1DB1730B00EF4545 /* CreateAccountViewController.swift */,
 				01A508BD1DB1731400EF4545 /* SignInViewController.swift */,
 				0170DB3C1DB197B2009F7C92 /* WelcomeViewController.swift */,
-				010AEA401DB1E6FA001AE960 /* Test.swift */,
 				0113D4D61DB360DB005E8DF0 /* TOSViewController.swift */,
 				0114B9031DB4442B0029A3EC /* SettingsViewController.swift */,
 				0114B9051DB44A960029A3EC /* PhotosViewController.swift */,
@@ -309,7 +306,6 @@
 				01A508BC1DB1730B00EF4545 /* CreateAccountViewController.swift in Sources */,
 				0113D4D71DB360DB005E8DF0 /* TOSViewController.swift in Sources */,
 				01A508BE1DB1731400EF4545 /* SignInViewController.swift in Sources */,
-				010AEA411DB1E6FA001AE960 /* Test.swift in Sources */,
 				01A508811DB16A1200EF4545 /* AppDelegate.swift in Sources */,
 				0170DB3D1DB197B2009F7C92 /* WelcomeViewController.swift in Sources */,
 			);
