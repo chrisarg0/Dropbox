@@ -12,7 +12,7 @@ class TOSViewController: UIViewController {
     
     @IBOutlet weak var tosWebView: UIWebView!
     
-    let url = "https://www.dropbox.com/terms?mobile=1"
+    let url = "https://www.dropbox.com/"
     
     override func viewDidLoad() {
         super.viewDidLoad()
