@@ -13,7 +13,7 @@ class SettingsViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        scrollView.contentSize = CGSize(width: 376, height: 1050)
+        scrollView.contentSize = CGSize(width: 375, height: 1245)
         
         scrollView.delegate = self
         // Do any additional setup after loading the view.

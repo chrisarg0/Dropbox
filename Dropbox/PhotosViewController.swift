@@ -16,7 +16,7 @@ class PhotosViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        scrollView.contentSize = CGSize(width: 376, height: 854)
+        scrollView.contentSize = CGSize(width: 375, height: 750)
         
         scrollView.delegate = self
         
